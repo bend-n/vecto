@@ -30,3 +30,10 @@ impl<T: Copy> TryFrom<&[T]> for Vector2<T> {
             .ok_or(())
     }
 }
+
+impl<T> From<Vector2<T>> for (T, T) {
+    /// Tuplifys the vec, (x, y).
+    fn from(value: Vector2<T>) -> Self {
+        (value.x, value.y)
+    }
+}
