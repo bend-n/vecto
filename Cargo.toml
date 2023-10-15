@@ -1,0 +1,13 @@
+[package]
+name = "vecto"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "vector2"
+repository = "https://github.com/bend-n/vecto"
+authors = ["bendn <bend.n@outlook.com>"]
+keywords = ["math", "vector2"]
+categories = ["algorithms", "data-structures", "mathematics"]
+
+[dependencies]
+umath = "0.0.7"
